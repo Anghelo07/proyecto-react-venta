@@ -1,0 +1,53 @@
+.salto {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.salto:focus {
+  left: 16px;
+  top: 12px;
+  width: auto;
+  height: auto;
+  z-index: 200;
+  background: #fff8e1;
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: 0 0 0 2px #0d47a1;
+  outline: none;
+}
+
+.envoltorio-menu {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.contenido-principal {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.35rem;
+  padding-top: 1rem;
+}
+
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.marco {
+  padding: 0 0.85rem 1.25rem;
+  background: transparent;
+  border-radius: 0;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.pie {
+  margin-top: auto;
+}
